@@ -25,5 +25,4 @@ if(age == 23) {
 
 console.log(favoriteColor);
 
-
 document.querySelector("h1").style.color = "blue";
