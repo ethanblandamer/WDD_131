@@ -6,7 +6,7 @@ let age = 23;
 // like print in Python
 console.log(age)
 
-age = 25
+age = 21
 
 // A constant variable
 const name = "Ethan";
