@@ -22,8 +22,10 @@ if(age == 21) {
     console.log(username);
     let favoriteColor = "blue";
     console.log(favoriteColor);
+    console.log(policyDisclaimer);
 }
 
+console.log(favoriteColor);
 
 
 document.querySelector("h1").style.color = "blue";
