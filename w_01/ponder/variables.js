@@ -6,8 +6,6 @@ let age = 23;
 // like print in Python
 console.log(age)
 
-age = 21
-
 // A constant variable
 const name = "Ethan";
 
@@ -17,7 +15,7 @@ const username = "billyjoe";
 
 // Scope = where you can reference a variable by name
 
-if(age == 21) {
+if(age == 23) {
     // a new scope
     console.log(username);
     let favoriteColor = "blue";
