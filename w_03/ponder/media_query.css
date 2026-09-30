@@ -1,0 +1,32 @@
+/* Mobile first design */
+/* looks good on phone without a media query */
+
+div {
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    margin: 15px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* desktop */
+
+@media screen and (min-width: 700px) {
+    body {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10%; 
+    }
+
+    div {
+        width: 300px;
+        height: 300px;
+        background-color: rosybrown;
+    }
+}
+
