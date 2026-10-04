@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  background-color: #cccccc;
+}
+
+header {
+  background-color: #2a81e1;
+  color: white;
+  text-align: center;
+  padding: 0.75rem 0 0.25rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3em;
+  padding: 0.5em;
+}
+
+.menu-btn {
+  border: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 0.5em;
+}
+
+.menu-btn p {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+nav {
+  display: none;
+}
+
+main {
+  background-color: #cccccc;
+  padding: 0.5em 0 1em;
+}
+
+h2 {
+  margin: 0.5em;
+  text-align: center;
+  font-size: 2em;
+}
+
+#gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 2em;
+}
+
+#gallery img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 0;
+  border: 5px solid white;
+  box-shadow: 0 0 1em black;
+}
+
+footer {
+  background-color: #2a81e1;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+
+@media screen and (min-width: 600px) {
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        gap: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    nav a {
+        display: inline;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    #gallery {
+        display: grid;
+        justify-self: center;
+        max-width: 80%;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        gap: 1.5em;
+    }
+
+}
