@@ -35,12 +35,18 @@ h1 {
 .menu-btn p {
   margin: 0;
   font-size: 1.5em;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+nav {
+  display: none;
 }
 
 nav a {
     padding: 20px;
-    color: white;
-    display: none;
+    color: white; 
 }
 nav a:hover {
     text-decoration: none;
@@ -81,6 +87,24 @@ footer {
   padding: 1em;
 }
 
+dialog img {
+    width: 90%;
+    display: block;
+    margin: 20vh auto;
+}
+dialog {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.75);
+}
+.close-viewer {
+    position: absolute;
+    top: 10vh;
+    right: 2vh;
+    padding: 3px 6px;
+    font-size: 1.5em;
+}
+
 
 @media screen and (min-width: 600px) {
     #gallery {
@@ -112,6 +136,12 @@ footer {
         grid-template-columns: 1fr 1fr 1fr;
         justify-items: center;
         gap: 1.5em;
+    }
+
+    dialog img {
+      width: 60%;
+      display: block;
+      margin: 20vh auto;
     }
 
 }
