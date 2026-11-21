@@ -75,14 +75,16 @@ main {
 .recipe-book {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     width: 100%;
 }
 
 .recipe-card {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     max-width: 430px;
+    margin: 2em;
     padding: 1.25em;
     border: 2px solid #444;
     border-radius: 8px;
