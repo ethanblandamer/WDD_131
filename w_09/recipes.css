@@ -82,7 +82,7 @@ main {
 .recipe-card {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 95%;
     max-width: 430px;
     margin: 2em;
     padding: 1.25em;
